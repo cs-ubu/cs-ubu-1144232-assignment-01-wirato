@@ -41,7 +41,7 @@ ls Option ใช้สำหรับ แสดงรายชื่อไฟล
 การจัดการ Process      | คำสั่ง
 -----------------------|-----
 แสดง process ที่กำลังทำงานอยู่ | $ ps aux
-แสดงรายละเอียดโปรเซสของ firefox grep คือ regular expression โดยค้นหาโปรเซสชื่อ firefox | $ ps aux *|* grep firefox
+แสดงรายละเอียดโปรเซสของ firefox grep คือ regular expression โดยค้นหาโปรเซสชื่อ firefox | $ ps aux l grep firefox
 ปิดโปรเซส ตามไอดีที่ระบุ (ไอดีดูได้จาก ps aux) | $ kill -9 pid
 ปิดโปรเซสของโปรแกรม name | $ killall name
 ปิดโปรเซสทั้งหมด | $ kill -9 -1
